@@ -1,0 +1,303 @@
+*{
+   margin: 0;
+    text-decoration: none;
+ }
+/* Header and navigation styles */
+body{
+   background-color: #ffffff;
+}
+.nav{
+   background-color: black;
+    display: flex;
+    justify-content: space-between;
+     padding-right: 25px;
+     padding-left: 35px;
+}
+.nav-bar{
+     font-size: 35px;
+    font-weight: bold;
+    color: rgb(231, 223, 223);
+}
+span{
+   font-weight: bold;
+   color: green;
+}
+/* .nav-title{
+    font-style: 800;
+    font-size: 45px;
+} */
+.nav ul{
+    display: flex;
+    align-items: center;
+}
+.nav li{
+    list-style: none;
+    margin-left: 50px;
+}
+.btn-primary {
+    background-color: green;
+    margin-left: 20px;
+    border-radius: 10px;
+    padding:10px;
+    width: 140px;
+ }
+ .navigation{
+   display: flex;
+   justify-content: space-between;
+   padding: 20px 200px ;
+}
+.nav-title{
+   font-style: 800;
+   font-size: 45px;
+}
+.navigation ul{
+   display: flex;
+   align-items: center;
+}
+.navigation li{
+   list-style: none;
+   margin-left: 50px;
+}
+/* Banner section */
+.banner{
+   background-image: url('../image/slide.jpg');
+   background-position:center;
+   background-size: cover;
+   height: 400px;
+   background-repeat: no-repeat;
+}
+.banner-inner{
+   display: flex;
+   flex-direction: row-reverse;
+   align-items: center;
+   position: absolute;
+   top: 40%;
+   left: 400px;
+}
+.banner-sub-title{
+   color: rgb(209, 207, 207);
+   text-align: center;
+   font-size: 20px;
+   font-weight: 700px;
+   margin-top: 20px;
+}
+.rekha{
+   margin-top: 10px;
+}
+.banner-section{
+   color: #faefef;
+   text-align: center;
+   font-size: 25px;
+   font-size: 60px;
+   margin-top: 20px;
+}
+.btn-1{
+   background-color: #ffffff;
+   color: black;
+   padding: 7px 15px;
+   display: inline-block;
+   font-family: sans-serif;
+   border-radius: 10px;
+}
+/* section */
+.learn-more{
+   margin-top: 0px;
+    padding: 100px;
+    text-align: center;
+}
+.about-info-container{
+   display: flex;
+   justify-content: space-around;
+}
+.icon-title{
+   color: orangered;
+}
+.info-title{
+   font-size: 10px;
+   color: #252121;
+   margin-top: 20px;
+}
+.info-description{
+   font-weight: 100;
+   font-size: 13px;
+   color: #2e2626;
+   margin-top: 20px;
+}
+/* Main nsection Recent Work*/
+.container{
+   min-height: 100vh;
+   padding: 130px;
+   background-color: #faefef;
+   text-align: center;
+   margin-bottom: 20px;
+   font-size: 35px;
+}
+.heading {
+   color: #312222;
+   text-align: center;
+   margin-top: 10px;
+   font-size: 35px;
+   font-weight: 600px;
+}
+.p ,p{
+   font-size: 15px;
+}
+.section-hr{
+   width: 50px;
+   text-align: center;
+   border-bottom: 2px solid #F65F6C;
+   border-radius: 100px;
+}
+.container .box-container{
+   margin-top: 50px;
+   display: grid;
+   grid-template-columns: repeat(3, 2fr);
+   gap: 20px;
+}
+.box-container .card{
+   padding: 30px 20px;
+   text-align: center;
+}
+.box img{
+   width: 300px;
+   height: 300px;
+}
+.box-contant{
+   background-color: #ffffff;
+   text-align: center;
+}
+.h2{
+   font-size: 35px;
+}
+.step-4{
+   background-image: url('../image/parallax.jpg');
+   background-position:center;
+   background-size: cover;
+   height: 100px;
+   background-repeat: no-repeat;
+   padding: 100px;
+   text-align: center;
+}
+.about-step{
+   display: flex;
+   justify-content: space-around;
+}
+.step-title{
+   font-weight: 100;
+   font-size: 60px;
+   color: #ece6e6;
+   margin-top: 20px;
+}
+.step-description{
+   font-weight: 100;
+   font-size: 33px;
+   color: #e0c5c5;
+   margin-top: 20px;
+}
+
+
+/* Main section Servicea */
+.services{
+   margin-top: 0px;
+    padding: 80px;
+    text-align: center;
+}
+.top-services{
+   margin-bottom: 30px;
+}
+.text-primary{
+   font-size: 40px;
+   font-weight: 100;
+}
+.text-pri {
+   margin-top: 10px;
+}
+hr{
+   margin-top: 20px;
+}
+.services-banner{
+   display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    row-gap: 30px;
+}
+.icon-info{
+   display: flex;
+    align-items: center;
+}
+.icon-info i{
+   width: 30px;
+   height: 30px;
+}
+.head-info{
+   color: #ccbbbb;
+   margin-top: 30px;
+   margin-right: 80px;
+   font-size: 20px;
+   font-weight: 700;
+   line-height: 50px; 
+}
+.para-info{
+   color: #ccbbbb; 
+   font-size: 14px;
+}
+/*  Happy Costumers */
+.divison{
+   background-color: rgb(255, 255, 255);
+   padding: 80px;
+}
+.about-primary{
+   font-size: 40px;
+   font-weight: 100;
+}
+.about-text-pri{
+   margin-top: 10px;
+}
+.happy-custumers{
+   margin-top: 50px;
+   display: grid;
+   grid-template-columns: repeat(2,2fr);
+   row-gap: 50px;
+}
+.costumers{
+   display: flex;
+} 
+.costumers-sub-section img{
+   width: 50px;
+   height: 50px;
+}
+.costumers-title{
+   color: #474648;
+   margin-right: 80px;
+   font-size: 20px;
+   font-weight: 400;
+   line-height: 30px;
+}
+.costumers-sub-title{
+   font-family: 'Times New Roman', sans-serif;
+   font-weight: 200;
+   color: #474648;
+   padding: 0;
+   font-size: 12px;
+}
+
+
+.my-plans{
+   text-align: center;
+   margin-top: 130px;
+}
+.about-info-container{
+   margin-top: 40px;
+   display: flex;
+   justify-content: space-around;
+}
+.info-title{
+   margin-top: 8px;
+   font-size: 18px;
+   color: black;
+   font-size: 65;
+}
+.info-description{
+   margin-top: 10px;
+   font-size: 12px;
+   color: #474747;
+}
